@@ -1,4 +1,4 @@
-# cURL(bash)自动生成request请求
+# cURL(bash)自动生成requests请求
 
 ## 前言
 

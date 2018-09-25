@@ -52,13 +52,6 @@ print(r.text)
 
 ```
 
-运用完整的cookies进行运行并复制运行结果进行验证，最终得到了直接登录后的网页源码。
-
-![2.png](https://upload-images.jianshu.io/upload_images/5498924-bb4fbf1319016f2f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-
-![3.png](https://upload-images.jianshu.io/upload_images/5498924-725eb9a8e90bd8a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 支持
 目前已支持 豆瓣，知乎，哔哩哔哩动画（修改requests方法为get）等大型网站

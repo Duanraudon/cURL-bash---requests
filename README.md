@@ -60,5 +60,7 @@ print(r.text)
 
 ![3.png](https://upload-images.jianshu.io/upload_images/5498924-725eb9a8e90bd8a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+## 支持
+目前已支持 豆瓣，知乎，哔哩哔哩动画（修改requests方法为get）等大型网站
+还在陆续更新中。。
 

@@ -47,13 +47,13 @@ headers = {
 'cache-control': 'max-age=0', 
 }
 
-r = requests.post('https://www.zhihu.com/', headers=headers, cookies=cookies,)
+r = requests.get('https://www.zhihu.com/', headers=headers, cookies=cookies,)
 print(r.text)
 
 ```
 
 
 ## 支持
-目前已支持 豆瓣，知乎，哔哩哔哩动画（修改requests方法为get）等大型网站
+目前已支持 豆瓣，知乎，哔哩哔哩动画,Github等大型网站,注意少部分网站请求方式需单独修改
 还在陆续更新中。。
 

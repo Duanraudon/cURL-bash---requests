@@ -84,11 +84,11 @@ if __name__ == '__main__':
     url = str(re.findall('curl.*?(?:\' )', r)).strip("[]' ").split(" ")[1]
     #由于data字段很少有网页有所包含，所以这里加了一个判断语句用来打印data
     if data != '[]':
-        print("r = requests.post(" + url + ", headers=headers, cookies=cookies, data=data,)")
+        print("r = requests.get(" + url + ", headers=headers, cookies=cookies, data=data,)")
 
     elif cookies != '[]':
-        print("r = requests.post(" + url + ", headers=headers, cookies=cookies,)")
+        print("r = requests.get(" + url + ", headers=headers, cookies=cookies,)")
 
-    else:print("r = requests.post(" + url + ", headers=headers,)")
+    else:print("r = requests.get(" + url + ", headers=headers,)")
     print("print(r.text)")
 
